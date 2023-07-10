@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="config_device_state_postures" translatable="false">
+        <item>0:1</item> <!-- CLOSED -->
+        <item>1:2</item> <!-- HALF_OPEN -->
+        <item>2:3</item> <!-- FLAT -->
+        <item>3:4</item> <!-- FLIPPED -->
+    </string-array>
+    <integer-array name="config_foldedDeviceStates" translatable="false">
+        <item>3</item> <!-- FOLDED -->
+    </integer-array>
+
+    <bool name="config_lidControlsSleep">true</bool>
+
+    <integer-array name="config_deviceTabletopRotations">
+        <item>90</item>
+        <item>270</item>
+    </integer-array>
+
+    <integer name="config_letterboxBackgroundType" translatable="false">0</integer> <!-- Solid color -->
+    <item name="config_letterboxHorizontalPositionMultiplier" format="float" type="dimen">0</item>
+    <item name="config_letterboxVerticalPositionMultiplier" format="float" type="dimen">0.5</item>
+    <item name="config_fixedOrientationLetterboxAspectRatio" format="float" type="dimen">1.3333</item>
+    <bool name="config_letterboxIsPolicyForIgnoringRequestedOrientationEnabled" translatable="false">true</bool>
+</resources>
